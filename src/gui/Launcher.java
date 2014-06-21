@@ -10,6 +10,7 @@ public class Launcher {
 		System.out.println("helloworld");
 		System.out.println("Suces mes couilles Kyle !!!");
 		System.out.println("Respecte mon autorité !!!");
+		System.out.println("Thomas est trop génial");
 	}
 
 }

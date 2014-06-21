@@ -12,6 +12,7 @@ public class Launcher {
 		System.out.println("Launcher.main()");
 		System.out.println("Respecte mon autorité !!!");
 		System.out.println("Thomas est trop génial");
+		System.out.println("Ah bon? Oooooh o_O");
 	}
 
 }

@@ -8,8 +8,6 @@ public class Launcher {
 	public static void main(String[] args) {
 		System.out.println("Launcher.main()");
 		System.out.println("helloworld");
-		System.out.println("Suces mes couilles Kyle !!!");
 		System.out.println("Respecte mon autorité !!!");
 	}
-
 }

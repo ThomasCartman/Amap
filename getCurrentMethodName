@@ -1,0 +1,25 @@
+ /**
+        * 
+        * @return Renvoie le nom de la fonction que l'on est en trai d'executer
+        *         précédé par le package de la class de la fonction
+        */
+       public static String getMethodeFullName() {
+               Throwable t = new Throwable();
+               t.fillInStackTrace();
+               StackTraceElement e = t.getStackTrace()[1];
+               String className = e.getClassName();
+               String functionName = e.getMethodName();
+               return className + "." + functionName;
+       }
+
+       /**
+        * 
+        * @return Renvoie le nom de la fonction que l'on est en trai d'executer
+        */
+       public static String getMethodeName() {
+               Throwable t = new Throwable();
+               t.fillInStackTrace();
+               StackTraceElement e = t.getStackTrace()[1];
+               String functionName = e.getMethodName();
+               return functionName;
+       }
